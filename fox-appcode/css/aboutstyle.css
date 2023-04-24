@@ -1,0 +1,161 @@
+body {
+    width: 940px;
+    margin: 0 auto;
+    background-color: rgb(185, 212, 224);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Tahoma;
+    font-weight: normal;
+ }
+
+ .header {
+    font-size: 50pt;
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(196, 106, 16);
+ }
+
+ .header a {
+    text-decoration: none;
+    color:rgb(196, 106, 16);
+ }
+
+.aboutnav {
+    width: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20px;
+    color: rgb(196, 106, 16)
+}
+
+.aboutnav li a:hover {
+    color: red;
+    box-shadow: 0px 1px 8px rgba(43, 43, 50, 0.5);
+}
+
+.about {
+    text-align: center;
+}
+
+.home {
+    text-align: center;
+    color: rgb(196, 106, 16);
+}
+
+.aboutnav li a {
+    text-decoration: none;
+    color: rgb(196, 106, 16);
+}
+
+.aboutnav .about a {
+    background-color: white;
+    padding: 6px 12px;
+    border-radius: 15px;
+}
+
+.sun {
+    float: right;
+    width: 150px;
+}
+
+body {
+    position: relative;
+}
+
+.cloud1 {
+    position: absolute;
+    width: 150px;
+    margin-left: 20px;
+}
+
+.cloud2 {
+    position: absolute;
+    width: 120px;
+    margin-left: 200px;
+}
+
+.cloud3 {
+    position: absolute;
+    width: 200px;
+    margin-left: 200px;
+}
+
+.instatype {
+    text-align: left;
+    width: 188px;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+.aboutmetext {
+    width: 250px;
+}
+
+.maillink {
+    text-decoration: none;
+}
+
+#section-two {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.profile {
+    width: 250px;
+    margin-top: 40px;
+}
+
+.type {
+    margin-top: 50px;
+}
+
+.aboutmeintro {
+    font-size: 18pt;
+    color: rgb(196, 106, 16);
+    margin-bottom: 10px;
+}
+
+#contact {
+    width: 250px;
+    margin: 130px auto;
+    text-align: center;
+}
+
+.instadiv {
+    margin: 10px auto;
+}
+
+.instadiv a {
+    text-decoration: none;
+    color: black;
+}
+
+.maildiv {
+    margin: 10px auto;
+}
+
+.mailtype a {
+    text-decoration: none;
+    color: black;
+}
+
+.mailtype a:hover {
+    color: rgb(196, 106, 16);
+}
+
+.instatype a:hover {
+    color: rgb(196, 106, 16);
+}
+
+.insta {
+    float: left;
+}
+
+.mail {
+    float: left;
+}
